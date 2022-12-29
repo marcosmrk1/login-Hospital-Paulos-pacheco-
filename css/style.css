@@ -1,0 +1,126 @@
+/* geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: helvetica;
+    color:black;
+    border:none;
+}   
+
+header{
+    height: 0.2vh;
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    box-shadow: black;
+    margin-top: 0.6%;
+
+}
+
+img{
+    width: 5%;
+    margin-left: 47.6%;
+}
+
+body{
+    background-color: #041833;
+    background-size: cover;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a{
+   
+    font-size: .9rem;
+}
+
+a:hover {
+
+    color: blue;
+}
+/*container login*/
+
+#login-container {
+
+    background-color:  white;
+    width: 420px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    margin-top: 15vh;
+    border-radius: 10px;
+    text-align: center;
+     
+}
+
+/*formulario*/
+
+form{
+    margin-top: 7px;
+    margin-bottom:12px;
+
+}
+
+
+
+label, input{
+
+    display: block;
+    width: 100%;
+    text-align:left;
+
+}
+
+label {
+font-weight:bold;
+
+}
+
+input{
+
+    border: 2px solid #323232;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 26px;
+
+}
+
+input:focus{
+    border-bottom: 2px solid rosybrown;
+
+
+}
+
+
+input[type = "submit"]{
+    text-align: center ;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    border-radius: 90px;
+    margin-top: 20px;
+    color:white;
+    background-color: #041833;
+    cursor:pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #a59586;
+    transition: .6s;
+}
+
+
+
+
+.ultima{
+    width: 38.5%;
+    margin-left: 33.6%;
+    margin-top: 2%;
+}
+
+
